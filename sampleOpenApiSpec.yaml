@@ -1,0 +1,62 @@
+openapi: 3.0.1
+info:
+  title: defaultTitle
+  description: defaultDescription
+  version: '0.1'
+servers:
+  - url: https://sheet.best
+paths:
+  /api/sheets/827c442f-240d-421c-8e50-6580ff1f6253:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                '0':
+                  value: >-
+                    [{"First Name":"Sample First","Last Name":"Sample
+                    Last","DOB":"9-Aug-21"}]
+      servers:
+        - url: https://sheet.best
+    post:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                DOB:
+                  type: string
+                First Name:
+                  type: string
+                Last Name:
+                  type: string
+            examples:
+              '0':
+                value: >-
+                  {"First Name":"Second First","Last Name":"Second
+                  Last","DOB":"28-Mar-21"}
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                '0':
+                  value: >-
+                    [{"First Name":"Second First","Last Name":"Second
+                    Last","DOB":"28-Mar-21"}]
+      servers:
+        - url: https://sheet.best
+    servers:
+      - url: https://sheet.best
